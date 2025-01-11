@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links</title>
+    <style>
+
+        /*
+        # = id
+        . = class
+        : = pseudo-class
+        :: = pseudo-element
+        > = clildren
+        */
+
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        a {
+            color: rgb(255, 0, 0);
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        a:visited {
+            color: rgb(155, 19, 189);
+        }
+
+        a:hover {
+            color: black;
+            text-decoration: underline;
+        }
+
+        a:active {
+            color: blue;
+        }
+
+        .especial::before {
+            content: ' ⇒ '	;
+        }
+
+.especial {
+    background-color: aqua;
+}
+
+        .especial::after {
+            content:' ⇐	';
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Personalizando links</h1>
+    <ul>
+        <li><a target="_blank" href="https://terraria.fandom.com/wiki/Terraria_Wiki">Terraria</a></li>
+        <li><a class="especial" target="_blank" href="https://www.brawlstarsdicas.com.br/noticias/">Brawl Stars</a></li>
+        <li><a target="_blank" href="https://pt.stardewvalleywiki.com/Stardew_Valley_Wiki">Stardew Valley</a></li>
+    </ul>
+</body>
+</html>

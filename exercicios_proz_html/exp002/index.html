@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="tp-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>calculo de imc</title>
+    <link rel="shortcut icon" href="favicon.ico.ico" type="image/x-icon">
+    
+</head>
+<body>
+    <form action="#" method="get" onsubmit="pegar_dados_formulario(event)">
+        <div>
+            <label for="altura">Altura</label>
+            <input required id="altura" type="text" placeholder="
+            Digite sua altura">
+        </div>
+        <div>
+            <label for="peso">Peso</label>
+            <input required id="peso" type="text" placeholder="Digite seu peso">
+        </div>
+        <button type="submit">Calcular
+        </button>
+    </form>
+    <p>
+        Resultado: <span id="resultado"></span>
+    </p>
+    <script src="imc.js"></script>
+
+</body>
+</html>

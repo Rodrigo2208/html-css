@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping tags</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: #808080;
+            margin: 0px;
+        }
+
+        h1 {
+            box-shadow: inset 2px 2px 7px 2px #000000cf;
+        }
+
+        header {
+            background-color: #ffffff;
+            padding: 10px;
+            margin: 10px;
+            box-shadow: 2px 3px 3px 2px #00000081;
+        }
+
+        nav {
+            background-color: #494949;
+            box-shadow: 2px 3px 3px 2px #00000081;
+        }
+
+        nav > a {
+            text-decoration: none;
+            color: #ffffff;
+            font-weight: bold;
+            margin-right: 30px;
+            box-shadow:inset 2px 3px 3px 2px #00000081;
+        }
+
+        nav > a:hover {
+            text-decoration: underline;box-shadow: 2px 3px 3px 2px #00000081;
+        }
+
+        article {
+            background-color: #b4b4b4;
+            padding: 5px;
+            border-radius: 19px;
+            box-shadow: 2px 3px 3px 2px #00000081;
+        }
+
+        article > aside {
+            background-color: #808080;
+            border-radius: 7px;
+            box-shadow: 2px 3px 3px 2px #00000081;
+        }
+
+        main {
+            background-color: #ffffff;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 19px;
+            box-shadow: 2px 3px 3px 2px #00000081;
+        }
+
+        footer {
+            background-color: #000000;
+            color: #ffffff;
+            text-align: center;
+            padding: 5px;
+            margin: 0px;
+            box-shadow: 2px 3px 3px 2px #00000081;
+        }
+
+        footer > p {
+            margin: 0px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu iste</h1>
+        <nav>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+        </nav>
+    </header>
+    <main>
+        <section id="assuntos">
+            <p>Espotes, política e tecnologia</p>
+        </section>
+        <section id="noticias">
+            <article>
+                <h2>Notícias sobre o Brasil</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure dolore illum reprehenderit enim. Tenetur voluptatibus pariatur doloribus quaerat quibusdam? Eligendi facilis commodi labore aut harum voluptatum temporibus dolorum error laborum.</p>
+                <aside>
+                    <p>Artigo escrito por José da Silva</p>
+                </aside>
+            </article>
+        </section>
+    </main>
+    <footer>
+        <p>Desenvolvido pelo Main_Stu</p>
+    </footer>
+</body>
+</html>

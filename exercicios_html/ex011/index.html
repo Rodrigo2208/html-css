@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mídias em HTML5</title>
+</head>
+<body>
+    <h1>Imagens dinamicas</h1>
+    <p>Tente abrir esse site em varios dispositivos diferentes ou simplismente aumente ou diminua o tamanho em seu navegador.</p>
+
+    <picture>
+        <source media="(max-width: 750px)" srcset="imagens/fotao-p.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="imagens/foto-m.png" type="image/png">
+        <img src="imagens/foto-g.png" alt="Imagen flexivel">
+    </picture>
+
+    <h1>Reproduzindo áudio</h1>
+    <p>Vamos aprenderareproduzir áudio em HTML5</p>
+    <audio src="midia/musuca-da-jungle.mp3.mp3" autoplay controls></audio>
+    <!-- MP3 WAV OGG-->
+     <audio preload="metadata" autoplay controls loop>
+        <source src="midia/musuca-da-jungle.mp3.mp3" type="audio/mpeg">
+        <p>Infelismente o seu navegador não possibilita a reprodução de áudio.<a href="midia/musuca-da-jungle.mp3.mp3">BAIXE AQUI O ARQUIVO MP3</a></p>
+     </audio>
+
+</body>
+</html>
