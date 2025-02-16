@@ -1,6 +1,60 @@
+@charset "UTF-8";
+
 * {
     margin: 0px;
     padding: 0px;
+}
+
+html, body {
+    min-height: 100vh;
+    background-color: darkgray;
+}
+
+header {
+    background-color: #000000;
+    color: #ffffff;
+    text-align: center;
+}
+
+header > h1 {
+    padding: 50px;
+    font-variant: small-caps;
+}
+
+header > p {
+    padding-bottom: 50px;
+}
+
+header a {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+header a:hover {
+    text-decoration: underline;
+}
+
+section {
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    line-height: 2em;
+    padding-left: 30px;
+}
+
+section.normal {
+    background-color: #ffffff;
+}
+
+section.imagem {
+    background-color: #202020;
+    color: #ffffff;
+}
+
+section.imagem > p {
+    background-color: #000000c3;
+    width: 400px;
+    
 }
 
 footer {
@@ -31,7 +85,6 @@ footer p {
 }
 
 footer .fundo_colorido {
-    background-color: #fffc4e;
     border-radius: 4px;
     padding: 2.5px;
 }
@@ -42,11 +95,11 @@ footer a.texto_decorado:hover {
 
 footer a > p#github {
     display: none;
-    transition-duration: 0.5s;
 }
 
 footer a:hover > p#github {
     display: inline;
     font-weight: 700;
     background-color: #00000000;
+    background-color: #000000c4;
 }
