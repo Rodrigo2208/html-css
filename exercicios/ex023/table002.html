@@ -7,7 +7,6 @@
     <style>
         body {
             font-family: Arial, Helvetica, sans-serif;
-
         }
 
         h1 {
@@ -17,6 +16,7 @@
         table {
             min-width: 400px;
             margin: auto;
+            position: relative;
         }
 
         td, th {
@@ -36,8 +36,26 @@
             color: white;
         }
 
-        td.num {
+        thead > tr > th {
+            position: sticky;
+            top: -0.5px;
+            background-color: #535353;
+        } 
+
+        tbody > tr:nth-child(even) {
+            background-image: linear-gradient(to left, black, #ffffff);
+        }
+
+        tbody > tr:nth-child(odd) {
+            color: #ffffff;
+            background-image: linear-gradient(to right, black, #ffffff);
+        }
+
+        td.num:hover {
+            font-weight: bolder;
+            color: #000000;
             text-align: right;
+            text-shadow: 5px 5px 0px rgb(253, 253, 255);
         }
     </style>
 </head>
@@ -178,5 +196,16 @@
             </tr>
         </tfoot>
     </table>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non facere, nobis, officia quibusdam beatae asperiores culpa animi provident sunt nemo aspernatur, omnis eveniet blanditiis quae ut earum. Soluta, harum et?</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque, ratione voluptatibus? Commodi deserunt nulla maxime suscipit necessitatibus vitae, reprehenderit repellat odit provident dolorem mollitia quo sequi ad dolore modi architecto.</p>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Id amet incidunt perspiciatis officiis sunt eum ratione hic. Quisquam doloremque obcaecati, ducimus maiores consectetur eligendi, fuga ipsum inventore numquam porro quod.</p><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non facere, nobis, officia quibusdam beatae asperiores culpa animi provident sunt nemo aspernatur, omnis eveniet blanditiis quae ut earum. Soluta, harum et?</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque, ratione voluptatibus? Commodi deserunt nulla maxime suscipit necessitatibus vitae, reprehenderit repellat odit provident dolorem mollitia quo sequi ad dolore modi architecto.</p>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Id amet incidunt perspiciatis officiis sunt eum ratione hic. Quisquam doloremque obcaecati, ducimus maiores consectetur eligendi, fuga ipsum inventore numquam porro quod.</p><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non facere, nobis, officia quibusdam beatae asperiores culpa animi provident sunt nemo aspernatur, omnis eveniet blanditiis quae ut earum. Soluta, harum et?</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque, ratione voluptatibus? Commodi deserunt nulla maxime suscipit necessitatibus vitae, reprehenderit repellat odit provident dolorem mollitia quo sequi ad dolore modi architecto.</p>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Id amet incidunt perspiciatis officiis sunt eum ratione hic. Quisquam doloremque obcaecati, ducimus maiores consectetur eligendi, fuga ipsum inventore numquam porro quod.</p><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non facere, nobis, officia quibusdam beatae asperiores culpa animi provident sunt nemo aspernatur, omnis eveniet blanditiis quae ut earum. Soluta, harum et?</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque, ratione voluptatibus? Commodi deserunt nulla maxime suscipit necessitatibus vitae, reprehenderit repellat odit provident dolorem mollitia quo sequi ad dolore modi architecto.</p>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Id amet incidunt perspiciatis officiis sunt eum ratione hic. Quisquam doloremque obcaecati, ducimus maiores consectetur eligendi, fuga ipsum inventore numquam porro quod.</p><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non facere, nobis, officia quibusdam beatae asperiores culpa animi provident sunt nemo aspernatur, omnis eveniet blanditiis quae ut earum. Soluta, harum et?</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque, ratione voluptatibus? Commodi deserunt nulla maxime suscipit necessitatibus vitae, reprehenderit repellat odit provident dolorem mollitia quo sequi ad dolore modi architecto.</p>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Id amet incidunt perspiciatis officiis sunt eum ratione hic. Quisquam doloremque obcaecati, ducimus maiores consectetur eligendi, fuga ipsum inventore numquam porro quod.</p>
 </body>
 </html>
