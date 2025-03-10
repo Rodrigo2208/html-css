@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table real</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        table {
+            border-collapse: collapse;
+            width: 300px;
+        }
+
+        th {
+            border: 1px solid black;
+            padding: 5px;
+            text-align: center;
+        }
+        td {
+            border: 1px solid black;
+            padding: 5px;
+            text-align: center;
+        }
+
+        caption {
+            font-size: 1.2em;
+            font-weight: bold;
+            padding: 4px;
+        }
+
+        tbody > tr:nth-child(odd) {
+            color: #000000;
+            background-color: #8a8a8a;
+        }
+
+        #con {
+            background-image: linear-gradient(to top, #8a8a8a 50%, white 50%);
+        }
+    </style>
+</head>
+<body>
+    <h1>Table exercise</h1>
+    <table>
+        <thead>
+            <tr>
+                <th scope="col">Class</th>
+                <th scope="col" colspan="3">Worts</th>
+                <th scope="col" colspan="3">Best</th>
+            </tr>
+        </thead>
+        <caption>
+            Melhores e Piores Brawlers
+        </caption>
+        <tbody>
+            <tr>
+                <th scope="col">Tank</th>
+                <td>Meg</td>
+                <td>Bull</td>
+                <td>Rosa</td>
+                <td>Frank</td>
+                <td>Ash</td>
+                <td>Ollie</td>
+            </tr>
+            <tr>
+                <th scope="col">Support</th>
+                <td>Doug</td>
+                <td>Pam</td>
+                <td>Ruffs</td>
+                <td>bary</td>
+                <td>Gus</td>
+                <td>Max</td>
+            </tr>
+            <tr>
+                <th scope="col">Sniper</th>
+                <td>Bonnie</td>
+                <td>Nani</td>
+                <td>Piper</td>
+                <td>Maisie</td>
+                <td>janet</td>
+                <td>Belle</td>
+            </tr>
+            <tr>
+                <th scope="col">Launcher</th>
+                <td>Willow</td>
+                <td>Grom</td>
+                <td>Dynamike</td>
+                <td>Juju</td>
+                <td>Barley</td>
+                <td>LL</td>
+            </tr>
+            <tr>
+                <th scope="col">Destroyer</th>
+                <td>Moe</td>
+                <td>Shelly</td>
+                <td>Clancy</td>
+                <td>R-T</td>
+                <td>Surge</td>
+                <td>Rico</td>
+
+            </tr>
+            <tr>
+                <th id="con" scope="col" rowspan="2">Control</th>
+                <td>Chuck</td>
+                <td>Charlie</td>
+                <td>EMZ</td>
+                <td>Mister.P</td>
+                <td>Lou</td>
+                <td>Penny</td>
+            </tr>
+            <tr >
+                <td>Sam</td>
+                <td>Edgar</td>
+                <td>Mico</td>
+                <td>Stu</td>
+                <td>Melodie</td>
+                <td>Shade</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
