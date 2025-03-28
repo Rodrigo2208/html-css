@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table exercise</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        table {
+            width: 500px;
+            border-collapse: collapse;
+        }
+
+        caption {
+            font-size: 1.3em;
+            font-weight: bolder;
+            padding: 8px;
+        }
+
+        td, th {
+            border: 1px solid black;
+            padding: 8px;
+        }
+
+        col.cname {
+            background-color: #ffb6b6;
+        }
+
+        col.cgroup {
+            background-color: #aaffaa;
+        }
+
+        col.cprof {
+            background-color: #c1d7ff;
+        }
+    </style>
+</head>
+<body>
+    <h1>Table exercise</h1>
+    <table>
+        <colgroup>
+            <col class="cname">
+            <col class="cgroup" span="2">
+            <col class="cprof">
+        </colgroup>
+        <caption>cadastre</caption>
+        <tr>
+            <th scope="col">Name</th>
+            <th scope="col">Sex</th>
+            <th scope="col">Age</th>
+            <th scope="col">Profession</th>
+        </tr>
+        <tr>
+            <td>Jacinto Big Head</td>
+            <td>M</td>
+            <td>-17</td>
+            <td>Bomb Man</td>
+        </tr>
+        <tr>
+            <td>John Black</td>
+            <td>M</td>
+            <td>17</td>
+            <td>Programmer</td>
+        </tr>
+        <tr>
+            <td>Jonathan Bald</td>
+            <td>M</td>
+            <td>17</td>
+            <td>Espace X</td>
+        </tr>
+        <tr>
+            <td>Small Jamelan</td>
+            <td>I</td>
+            <td>67</td>
+            <td>Burn the Thread</td>
+        </tr>
+        <tr>
+            <td>Big Jairo</td>
+            <td>F</td>
+            <td>17!Kg</td>
+            <td>To give</td>
+        </tr>
+    </table>
+</body>
+</html>
