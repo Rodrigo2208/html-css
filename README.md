@@ -11,8 +11,6 @@
 
 <a href="https://rodrigo2208.github.io/html-css/exercicios/ex004">Executar o exercício 004<a>
 
-<a href="https://rodrigo2208.github.io/html-css/exercicios/ex005">Executar o exercício 005<a>
-
 <a href="https://rodrigo2208.github.io/html-css/exercicios/ex006">Executar o exercício 006<a>
 
 <a href="https://rodrigo2208.github.io/html-css/exercicios/ex007">Executar o exercício 007<a>
