@@ -1,0 +1,18 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+button {
+    background-color: blue;
+    color: white;
+    font-size: 30px;
+    width: 150px;
+    height: 80px;
+    margin-bottom: 18px;
+    border-radius: 6px;
+    border-style: none;
+}
+
+button:hover {
+    background-color: #080195;
+}
