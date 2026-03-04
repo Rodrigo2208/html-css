@@ -1,6 +1,7 @@
 @charset "UTF-8";
 
-* {
-    margin: 10px;
-    padding: 10px;
+body {
+    background-image: url(../imagens/cev-landscape.jpg);
+    background-position: left bottom;
 }
+
