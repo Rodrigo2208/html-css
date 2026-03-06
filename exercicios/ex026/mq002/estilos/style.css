@@ -9,7 +9,7 @@
 html, body {
     width: 100vw;
     height: 100vh;
-    background-color: #b04848;
+    background-color: #1f3fff;
     background-size: contain;
     background-repeat: no-repeat;
 }
@@ -17,5 +17,5 @@ html, body {
 h1 {
     padding: 10px;
     color: white;
-    text-shadow: 3px 3px 0px #763131;
+    text-shadow: 3px 3px 0px #162dac;
 }
