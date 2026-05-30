@@ -51,4 +51,4 @@
 
 <a href="https://rodrigo2208.github.io/html-css/exercicios/ex025">Executar o exercício 025<a>
 
-<a href="https://rodrigo2208.github.io/html-css/exercicios/ex026">Executar o exercício 026<a>
+<a href="exercicios/ex026">Executar o exercício 026<a>
