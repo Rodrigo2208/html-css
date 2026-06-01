@@ -5,13 +5,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="estilos/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
 </head>
 <body>
     <header>
         <h1>
             Meu site
         </h1> 
-        <menu>
+        <span id="burger" class="material-symbols-outlined" onclick="clikMenu()">menu</span>
+        <menu id="itens">
             <ul>
                 <li><a href="#">Netherite</a></li>
                 <li><a href="#">Irídio</a></li>
@@ -27,6 +29,14 @@
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non deleniti voluptatem accusamus natus consequuntur totam eum doloremque cumque maiores saepe quaerat ratione, numquam dolor aperiam consectetur aliquam fugit, nostrum atque.</p>
         </article>
     </main>
-
+    <script>
+        function clikMenu(){
+            if (itens.style.display == 'block') {
+                itens.style.display = 'none'
+            } else {
+                itens.style.display = 'block'
+            }
+        }
+    </script>
 </body>
 </html>
