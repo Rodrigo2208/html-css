@@ -6,8 +6,9 @@
     <title>Document</title>
     <link rel="stylesheet" href="estilos/style.css">
     <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
+    <link rel="stylesheet" href="estilos/media-query.css">
 </head>
-<body>
+<body onresize="mudou()">
     <header>
         <h1>
             Meu site
@@ -30,6 +31,14 @@
         </article>
     </main>
     <script>
+        function mudou(){
+            if (window.innerWidth >= 769) {
+                itens.style.display = 'block'
+            } else {
+                itens.style.display = 'none'
+            }
+        }
+
         function clikMenu(){
             if (itens.style.display == 'block') {
                 itens.style.display = 'none'
